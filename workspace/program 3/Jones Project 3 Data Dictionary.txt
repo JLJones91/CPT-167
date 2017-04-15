@@ -1,0 +1,18 @@
+userName	String
+length		double	length of room in feet
+width		double	width of room in feet
+height		double	height of ceiling in feet
+paintColor	String	
+numberOfCoats	integer	Number of coats of paints
+numberOfWindows	integer	Number of windows to be installed
+totalSqFeet	double	Total area of all walls
+wallArea	double	Total area of wall space with windows
+gallonsNeeded	double	Gallons of paint needed
+numberOfBtus	double	BTU's required to cool room
+cubicFeet	double	Cubic feet of room (lxwxh)
+WINDOW_PER_SQ_FEET = 145
+numberOfWindows = Math.floor(numberOfWindows)
+SQ_FEET_PER_WINDOW = 18
+GALLONS_PER_SQ_FEET = 350
+gallonsNeeded = Math.ceil(gallonsNeeded)
+SQ_FEET_BTUS = 650

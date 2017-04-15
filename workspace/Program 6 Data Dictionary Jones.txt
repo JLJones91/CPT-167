@@ -1,0 +1,7 @@
+string	custId	    3 digit customer ID number
+double	custKwh	    The number of kilowatt-hours a customer used in 1 month
+double	charge	    The amount the customer will be charged for the month based on kWh
+double	totalKwh    Total kWh all customers have used
+double	totalCharge Total amount charged to all customers based of kWh usage
+int	totalCust   Total customers entered
+char	runProgram 

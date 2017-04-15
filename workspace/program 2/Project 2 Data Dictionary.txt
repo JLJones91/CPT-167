@@ -1,0 +1,10 @@
+userFirstName	String
+totalSqFeet	double	Square feet of walls and ceiling
+numberOfCoats	integer	Number of coats of Paint
+gallonsNeeded	double	Gallons of paint needed for whole project
+brushesNeeded	double	Number of brushes needed for whole project
+length		double	length of room
+width		double	width of room
+height		double	height of room
+static final int SQ_FT_PER_GALLON = 350;
+static final int SQ_FT_PER_Brush = 1300;

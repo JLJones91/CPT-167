@@ -1,0 +1,12 @@
+String	userName
+double	length	length of room in feet
+double	width	width of room in feet
+double	height	height of room in feet
+double	totalArea	((length * height *2) + (width * height * 2))
+double	winAllow	number of windows allowed in the space inputted. windowsAllowed = totalArea / 145
+double	winWanted	number of windows the customer wants. No more than windowsAllowed.
+double	cubicVol	cubic feet of room (length * width * height)
+double	btus	btu's required to cool the room. btus = ((totalArea/650cubicft) * 1000)
+char	acUnit	recommended acUnit for purchase
+final int	WINDOW_PER_SQ_FEET = 145;
+final int	SQ_FEET_BTUS = 650;

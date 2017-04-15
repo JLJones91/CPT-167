@@ -1,0 +1,6 @@
+userName	String	
+status		String	This will note if the employee is (F)ull or (P)art time
+totalSales	double	This is the employees total sales
+commissionRate	doulbe	This is the commission rate the employee will recieve
+commissionEarned double	This is the amount of commission the employee has earned
+companyProfit	double	This is the amount of money the company made after the employees commission
